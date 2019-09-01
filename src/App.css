@@ -1,33 +1,76 @@
-.App {
-  text-align: center;
+.App{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat !important;
+    padding-top: 8rem;
+    min-height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    background-color: #ef5350 !important;
+    color: white;
+    border-bottom: 4px solid white !important;
+    
+}
+.navbar a{
+    font-size: 2rem !important;
+    font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-header{
+    color: rgb(219, 187, 5);
+    font-weight: 500;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.card-title{
+    font-style: italic;
+    color: rgb(240, 156, 0);
+    font-weight: bold;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-img-top{
+    
+    background: rgb(40,18,0);
+    background: linear-gradient(90deg, rgba(40,18,0,1) 0%, rgba(253,29,29,1) 81%, rgba(252,176,69,1) 100%);
+}
+.badge{
+    color: black !important;
+}
+.colorear{
+    background: rgb(73,0,0);
+    background: linear-gradient(90deg, rgba(73,0,0,1) 2%, rgba(253,81,29,1) 81%, rgba(221,192,0,1) 100%);
+}
+.hierva{
+    color: black;
+    font-weight: bold !important;
+    
+}
+.imagen2{
+    background: rgb(202, 202, 202) !important;
+    -webkit-box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+-moz-box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+}
+.nombrepo{
+    color: orange;
+    font-weight: bold !important;
+    font-size: 2.5rem !important;
+    padding-bottom: 45px;
+    border-bottom: 2px dashed orange
+}
+.infor{
+    border: 2px dashed orange;
+    padding: 45px 0px;
+    -webkit-box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+-moz-box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+box-shadow: -3px 4px 13px 0px rgba(84,82,84,1);
+}
+.float-right{
+    border-right: 2px dashed orange;
+    padding-right: 25px
+}
+.descri{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
 }
